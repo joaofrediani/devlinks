@@ -28,6 +28,8 @@
 
 body {
   background: var(--background-url) no-repeat top center/cover;
+
+  height: 100vh;
 }
 
 body * {
@@ -182,4 +184,22 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--cor-scroll);
   border-radius: 20px;
   border: 3px solid rgb(28, 2, 41);
+}
+
+/* Responsividade */
+
+@media (min-width: 700px) {
+  
+ :root {
+
+  --background-url: url(./assets/bg-desktop.jpg);
+
+ }
+
+ .modo-claro {
+
+  --background-url: url(./assets/bg-desktop-light.jpg);
+
+ }
+
 }
