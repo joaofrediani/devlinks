@@ -3,17 +3,17 @@ function ToggleMode() {
 
   html.classList.toggle("modo-claro")
 
-  // const img = document.querySelector('#perfil img')
+  const img = document.querySelector('#perfil img')
 
-  // if (html.classList.contains("modo-claro")) {
+  if (html.classList.contains("modo-claro")) {
 
-  //   img.setAttribute("src", "./assets/nomedafoto.png")
+    img.setAttribute("src", "./assets/avatar2.png")
 
-  // } else {
+  } else {
 
-  //   img.setAttribute("src", "./assets/avataratual.png")
+    img.setAttribute("src", "./assets/avatar.png")
 
-  // }
+  }
 
   // if(html.classList.contains('modo-claro')) {
 
